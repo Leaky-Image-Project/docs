@@ -43,7 +43,7 @@ It will automatically prompt us to a website running on localhost:3000, if not j
 There are 3 available login credentials
 ```json
 {
-	{
+    {
         Name:     "attacker",
         Password: "attackPass",
     },

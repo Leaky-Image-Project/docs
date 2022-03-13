@@ -1,6 +1,16 @@
 # Docs
 Here is the instruction to run the project
 
+## VM password
+the virtual machine have a username and a password
+```json
+{
+    username: yoghurt,
+    password: password,
+}
+```
+the vm might sleep after idling sometime, use password `password` to access the vm again
+
 ## Prerequisites
 We need to install several executables and make them available on from the command line as follows
 * Go (>1.16)

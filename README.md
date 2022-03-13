@@ -1,7 +1,8 @@
-# Docs
+# Docs: Instruction to start leaky image project
 Here is the instruction to run the project
 
-## VM password
+## VM Related 
+### password
 the virtual machine have a username and a password
 ```json
 {
@@ -10,12 +11,16 @@ the virtual machine have a username and a password
 }
 ```
 the vm might sleep after idling sometime, use password `password` to access the vm again
+### Performance
+As this attack related to web browser, it is recommended to set the RAM to **4096MB** for better performance. Also, starting the server is quite slow when we test it in the VM, please be patient as it takes about 1 mins to start all of three servers we need.
 
 ## Prerequisites
-We need to install several executables and make them available on from the command line as follows
+We need to install several executables and make them available from the command line as follows
 * Go (>1.16)
 * node.js (latest version)
 * npm (latest version)
+
+Notice that these executables are pre-installed in the VM, but it is required if you run it on your local machine.
 
 ## File structures
 To run the project we need to create a file structure as follows (VM have set this up already at "Desktop")
@@ -46,7 +51,12 @@ and execute the script
 ```
 sh start.sh
 ```
-**N.B**: we have to make sure following ports are available, `localhost:3000`, `localhost:3030`, `localhost:8080`
+**N.B**: we have to make sure following ports are available, `localhost:3000`, `localhost:3030`, `localhost:8080`.
+
+Notice that it might be very slow, please be patient and wait until following display in the terminal.
+<p align="center">
+    <img src="./assets/terminal.png" alt="terminal" width="800"/>
+</p>
 
 It will automatically prompt us to a website running on localhost:3000, if not just open the default browser and navigate to localhost:3000
 

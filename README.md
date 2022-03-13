@@ -1,7 +1,7 @@
 # Docs
 Here is the instruction to run the project
 
-## Perquisite
+## Prerequisite
 We need to install several executables and make them available on from the command line as follows
 * Go (>1.16)
 * node.js (latest version)

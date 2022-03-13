@@ -14,11 +14,12 @@ To run the project we need to create a file structure as follows (VM have set th
 |-- image-api
 |-- image-website
 |-- attacker-website
+|-- example.png
 |-- start.sh
 ```
 where `image-api` is the server for the authenticated image upload server, `image-website` is the UI for the upload image upload service, and `attacker-website` is attacker controlled website that victims would visit.
 
-We create a bash script to start the server concurrently called `start.sh` which is in this directory
+We create a bash script to start the server concurrently called `start.sh` which is in this directory. We also provide an example image called `example.png` that we used in the serive, and this image have already been uploaded to the image sharing service via api.
 ## Install dependencies
 This step would be skipped in the virtual box as it is pre-installed by us (as no access to the internet)
 * For `image-api` we need to run `go get` 

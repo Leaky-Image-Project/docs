@@ -1,14 +1,14 @@
 # Docs
 Here is the instruction to run the project
 
-## Prerequisite
+## Prerequisites
 We need to install several executables and make them available on from the command line as follows
 * Go (>1.16)
 * node.js (latest version)
 * npm (latest version)
 
 ## File structures
-To run the project we need to create a file structure as follows
+To run the project we need to create a file structure as follows (VM have set this up already at "Desktop")
 ```
 - leaky-image-project
 |-- image-api
@@ -75,7 +75,7 @@ In the experiment we ignore the step for sharing the image address with the vict
 <p align="center">
     <img src="./assets/attacker-code.png" alt="attacker-code" width="1000"/>
 </p>
-We change line 2 to what we have shared with the victim. (Note: the original url is our test file address, do not need to change if you use the test file)
+We change line 2 to what we have shared with the victim. (Note: the original url is our test file address, do not need to change if you use the test file [example.png])
 
 Then we could open a new tab in the browser at localhost:8080 to open the attacker controlled website, we can see the image appears.
 <p align="center">

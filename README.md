@@ -58,7 +58,7 @@ There are 3 available login credentials
 },
 ```
 
-There is one image already uploaded to the server in the VM, but we could still upload our on by login to the attacker's account.
+There is one image already uploaded to the server in the VM, but we could still upload our own by logging in to the attacker's account.
 <p align="center">
     <img src="./assets/attacker-login.png" alt="attacker-login" width="800"/>
 </p>

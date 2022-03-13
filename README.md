@@ -20,7 +20,7 @@ where `image-api` is the server for the authenticated image upload server, `imag
 
 We create a bash script to start the server concurrently called `start.sh` which is in this directory
 ## Install dependencies
-This step would be skip in the virtual box as it is pre-installed by us in case of no access to the internet
+This step would be skipped in the virtual box as it is pre-installed by us (as no access to the internet)
 * For `image-api` we need to run `go get` 
 * For `image-website` we need to run `npm install`
 * For `attacker-website` we need to run `npm install`
@@ -87,7 +87,7 @@ To test the case when victim do not login, we need to logout the image upload se
     <img src="./assets/logout.png" alt="logout" width="800"/>
 </p>
 
-Go back to the attacker-controlled website at localhost:8080, and refresh it we could notice the image would not appear
+Going back to the attacker-controlled website at localhost:8080, and refreshing it we could notice that the image would not appear
 <p align="center">
     <img src="./assets/victim-logout.png" alt="victim-logout" width="800"/>
 </p>

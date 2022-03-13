@@ -97,11 +97,11 @@ If we login using the victim credential in the image upload service website at l
     <img src="./assets/victim-login.png" alt="victim-login" width="800"/>
 </p>
 
-Also if we could observe the content of the log by 
+Also, we could observe the content of the log by 
 ```
 cat attacker-website/victimlog.txt
 ```
-we could see
+We could see
 ```
 $ cat attacker-website/victimlog.txt
 $ The targeted victim visited on : Fri Mar 11 2022 16:05:24 GMT+0000 (Greenwich Mean Time)

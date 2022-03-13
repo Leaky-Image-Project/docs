@@ -77,7 +77,7 @@ In the experiment we ignore the step for sharing the image address with the vict
 </p>
 We change line 2 to what we have shared with the victim. (Note: the original url is our test file address, do not need to change if you use the test file)
 
-Then we could open a new tab in the browser at localhost:8080 to open the attacker controlled website, we could see the image appears
+Then we could open a new tab in the browser at localhost:8080 to open the attacker controlled website, we can see the image appears.
 <p align="center">
     <img src="./assets/victim-login.png" alt="victim-login" width="800"/>
 </p>

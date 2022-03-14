@@ -1,7 +1,11 @@
 # Docs: Instruction to start leaky image project
 Here is the instruction to run the project
-
 ## VM Related 
+### Link to download the VM image
+We export the VM image as a `.ova` file in *OneDrive* via this [link](https://liveuclac-my.sharepoint.com/:u:/g/personal/zczlyge_ucl_ac_uk/EUf-w0ha0wNLsmwwqGPuSMcBMkW7rcxO0869DPGzOd5CPw?e=XXwqmy).
+
+Link in plain text: https://liveuclac-my.sharepoint.com/:u:/g/personal/zczlyge_ucl_ac_uk/EUf-w0ha0wNLsmwwqGPuSMcBMkW7rcxO0869DPGzOd5CPw?e=XXwqmy
+
 ### password
 the virtual machine have a username and a password
 ```json
